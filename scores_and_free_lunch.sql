@@ -1,7 +1,3 @@
-/* The below query is meant to show how SAT scores vary across schools that have different percentages of students 
-receiving free lunch. It's clear that generally, schools with a lower percentage of students receiving free lunch, 
-tend to have higher scores. */
-
 SELECT  
 	satscores_join_frpm.dname AS district,
 	schools.City AS city,
