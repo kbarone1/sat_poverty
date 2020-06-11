@@ -1,6 +1,3 @@
-/* This query separates the percentages of students receiving free lunch into four categories. It reinforces the finding from
-___ query indicating that schools with higher percentages of students receiving free lunch also have lower test scores. */
-
 SELECT  
 	CASE 
 		WHEN frpm.`Percent (%) Eligible Free (K-12)` <= 0.25 THEN 'low_percentage'
